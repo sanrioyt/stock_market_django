@@ -1,0 +1,36 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+
+<div class='container'>
+  <div class="row">
+    <div class="col-md-9">
+<table class='table table-striped'>
+  <thead>
+    <tr>
+      <th>Stock</th>
+      <th>Sector</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for stock in stocks %}
+      <tr>
+        <td>{{ stock.ticker }}</td>
+        <td>{{ stock.sector }}</td>
+        <td>{{ stock.description }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <form action="" method="POST">
+    {% csrf_token %}
+    <table class="table">
+    <tr>
+      <th>Ticker: </th>
+      <td>{{ form.ticker }}</td>
+    </tr>
+
+    <tr>
+      <th>Description: </th>
+      <td>{{ form.description }}</td>
+    </tr>
+
+    <tr>
+      <th>Company Sector:</th>
+      <td>{{ form.sector }}</th>
+    </tr>
+
+    <tr>
+      <th>Market Cap: </th>
+      <td>{{ form.marketCap }}</td>
+    </tr>
+
+    </table>
+
+    <div class="form-group">
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
+  </form>
+
+</div>
+
+{% endblock content %}

@@ -1,0 +1,14 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+
+<div class="container">
+  {% if graph %}
+    <div style="width:600;height:500">
+      {{ graph|safe }}
+    </div>
+  {% endif %}
+
+</div>
+
+{% endblock content %}
