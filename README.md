@@ -1,4 +1,4 @@
-## Django tutorial that handles stock market
+## Django tutorial that handles stock market portfolio
 This is a small django tutorial that handles listing all stocks in a portolio, adding a new stock, importing stock data, some admin functionality, and some graphs. 
 
 ### Technologies used:
