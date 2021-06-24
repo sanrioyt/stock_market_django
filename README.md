@@ -6,4 +6,4 @@ This is a small django tutorial that handles listing all stocks in a portolio, a
 2. Django >=3.2.x
 3. python pandas = 1.1.5
 4. plotly = 4.5.0
-5. Bootstrap > 4.x for website
+5. Bootstrap > 4.x 
